@@ -1,4 +1,8 @@
 ~*
 Temp
 Library/
+Logs/
+bin/
+obj/
 Unity/QuickStartVR/Assets/Oculus/
+Unity/QuickStartVR-Done/Assets/Oculus/
