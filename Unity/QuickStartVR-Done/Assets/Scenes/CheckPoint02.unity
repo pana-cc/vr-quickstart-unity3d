@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 174584998}
   - component: {fileID: 174585002}
   m_Layer: 0
-  m_Name: Sphere (3)
+  m_Name: BallSmall3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -274,6 +274,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xrNode: 5
   hand: {fileID: 887334355}
+  grip: {fileID: 0}
 --- !u!1 &705507993
 GameObject:
   m_ObjectHideFlags: 0
@@ -699,7 +700,7 @@ GameObject:
   - component: {fileID: 1154872710}
   - component: {fileID: 1154872714}
   m_Layer: 0
-  m_Name: Sphere (1)
+  m_Name: BallSmall1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -807,7 +808,7 @@ GameObject:
   - component: {fileID: 1248226425}
   - component: {fileID: 1248226429}
   m_Layer: 0
-  m_Name: Sphere (2)
+  m_Name: BallSmall2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -918,7 +919,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!4 &1354963469
 Transform:
@@ -1007,7 +1008,7 @@ GameObject:
   - component: {fileID: 1366551248}
   - component: {fileID: 1366551252}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: BallBig
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1150,7 +1151,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 4294967295
   m_IsActive: 1
 --- !u!65 &1532539260
 BoxCollider:
@@ -1359,3 +1360,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   xrNode: 4
   hand: {fileID: 863390907}
+  grip: {fileID: 0}

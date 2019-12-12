@@ -62,7 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Billboard.cs" />
     <Compile Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Antialiasing.cs" />
     <Compile Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Bloom.cs" />
     <Compile Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\BloomAndFlares.cs" />
@@ -101,8 +100,6 @@
     <Compile Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Twirl.cs" />
     <Compile Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Scripts\Vortex.cs" />
-    <Compile Include="Assets\GrabbingHand.cs" />
-    <Compile Include="Assets\MyXRTrackedDevice.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
     <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
@@ -345,11 +342,12 @@
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\Helpers\OVRMicInput.cs" />
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceMod.cs" />
     <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceModContext.cs" />
+    <Compile Include="Assets\Scripts\Billboard.cs" />
     <Compile Include="Assets\Scripts\Quality.cs" />
+    <Compile Include="Assets\Scripts\ResetButton.cs" />
     <Compile Include="Assets\Scripts\TrackedXRDevice.cs" />
     <Compile Include="Assets\Scripts\TrackingSpace.cs" />
     <Compile Include="Assets\Scripts\XRHand.cs" />
-    <Compile Include="Assets\XRTrackedDevice.cs" />
     <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
     <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\NoiseEffectShaderRGB.shader" />
     <None Include="Assets\Dinner table\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />

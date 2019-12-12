@@ -160,7 +160,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.oculus.UnitySample
+    Android: com.progress.BeerPong
     Standalone: com.oculus.UnitySample
   buildNumber: {}
   AndroidBundleVersionCode: 1
@@ -253,7 +253,7 @@ PlayerSettings:
   clonedFromGUID: c0afd0d1d80e3634a9dac47e8a0426ea
   templatePackageId: com.unity.template.3d@2.3.3
   templateDefaultScene: Assets/Scenes/SampleScene.unity
-  AndroidTargetArchitectures: 1
+  AndroidTargetArchitectures: 2
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: '{inproject}: '
@@ -412,7 +412,9 @@ PlayerSettings:
     Android: 1
     iPhone: 1
     tvOS: 1
-  m_BuildTargetGroupLightmapEncodingQuality: []
+  m_BuildTargetGroupLightmapEncodingQuality:
+  - m_BuildTarget: Android
+    m_EncodingQuality: 2
   m_BuildTargetGroupLightmapSettings: []
   playModeTestRunnerEnabled: 0
   runPlayModeTestAsEditModeTest: 0
@@ -641,7 +643,8 @@ PlayerSettings:
   webGLWasmStreaming: 0
   scriptingDefineSymbols: {}
   platformArchitecture: {}
-  scriptingBackend: {}
+  scriptingBackend:
+    Android: 1
   il2cppCompilerConfiguration: {}
   managedStrippingLevel: {}
   incrementalIl2cppBuild: {}
@@ -650,7 +653,8 @@ PlayerSettings:
   scriptingRuntimeVersion: 1
   gcIncremental: 0
   gcWBarrierValidation: 0
-  apiCompatibilityLevelPerPlatform: {}
+  apiCompatibilityLevelPerPlatform:
+    Android: 3
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
   metroPackageName: Template_3D
